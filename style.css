@@ -33,10 +33,23 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
+    z-index: 1;
+    box-shadow: 0 0 40px 1px rgb(168, 167, 167);
+    transition: all 2s;
+    border-radius: 10px;
+}
+.card-box:hover .card {
+    transform: rotateY(180deg);
+}
+.card-box{
+    border-radius: 10px;
+    width: 320px;
+    height: 200px;
+    position: absolute;
     left: 80px;
     z-index: 1;
-    border-radius: 10px;
-    box-shadow: 0 0 40px 1px rgb(168, 167, 167);
+    background-color: rgb(238, 238, 238);
+
 }
 .cardnum {
     margin-top: 150px;
